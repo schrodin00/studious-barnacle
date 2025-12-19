@@ -76,3 +76,12 @@ body {
     0 18px 45px rgba(0,0,0,0.9),
     inset 0 0 0 2px rgba(255,255,255,0.08);
 }
+.wall {
+  position: relative;
+}
+
+/* 위치 패턴 몇 개 만들어두기 */
+.frame[data-pos="1"] { margin-top: 40px; }
+.frame[data-pos="2"] { margin-top: 120px; }
+.frame[data-pos="3"] { margin-top: 10px; }
+.frame[data-pos="4"] { margin-top: 180px; }
